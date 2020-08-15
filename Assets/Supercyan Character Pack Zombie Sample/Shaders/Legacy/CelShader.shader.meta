@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: b148589e47d02de4c9a7e8720f07a016
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - Ramp: {fileID: 2800000, guid: 55d9f997de358a34a85e48ef6b49e8f7, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
