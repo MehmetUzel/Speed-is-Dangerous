@@ -318,7 +318,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 542252334}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 10.600717}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
   m_LocalScale: {x: 8.507042, y: 8.507043, z: 8.507042}
   m_Children: []
   m_Father: {fileID: 1448429727}
@@ -326,7 +326,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.29975128, y: -19.100506}
+  m_AnchoredPosition: {x: -0, y: -1}
   m_SizeDelta: {x: 100, y: 193.77165}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &542252336
@@ -1019,11 +1019,11 @@ PrefabInstance:
     - target: {fileID: 816564864, guid: 0e74cf81e6fd82546b4797f71ceffb81, type: 3}
       propertyPath: ScoreText
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2043427335}
     - target: {fileID: 816564864, guid: 0e74cf81e6fd82546b4797f71ceffb81, type: 3}
       propertyPath: HScoreText
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1346877164}
     - target: {fileID: 816564864, guid: 0e74cf81e6fd82546b4797f71ceffb81, type: 3}
       propertyPath: RayOrigin
       value: 
