@@ -1,4 +1,3 @@
-# Speed-is-Dangerous
 <h1>Speed is dangerous if your direction is wrong :) Have Fun </h1>
 
 <h3>There is a secret cheat for this game if you can found it you are genious. Without using it you cannot make more than 50 score</h3> 
