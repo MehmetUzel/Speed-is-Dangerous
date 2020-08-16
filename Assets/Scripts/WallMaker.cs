@@ -9,7 +9,7 @@ public class WallMaker : MonoBehaviour
     public Transform lastWall;
     private Vector3 lastWallPos;
     float offset = 0.70711f;
-    bool cheat = false;
+    bool wallTurn = false;
 
     Transform player { get { return FindObjectOfType<PlayerController>().transform; } }
 
@@ -38,7 +38,7 @@ public class WallMaker : MonoBehaviour
         if (fingerCount > 1)
         {
             //paused = togglePause();
-            cheat = true;
+            wallTurn = true;
         }
 
     }
@@ -64,9 +64,9 @@ public class WallMaker : MonoBehaviour
 
         var newBlock = Instantiate(wallPartPrefab, newPos, Quaternion.Euler(0,45,0), transform);
 
-        if (cheat)
+        if (wallTurn)
         {
-            newBlock.transform.GetChild(0).gameObject.SetActive(cheat);
+            newBlock.transform.GetChild(0).gameObject.SetActive(wallTurn);
 
         }
         else
